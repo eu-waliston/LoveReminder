@@ -1,0 +1,25 @@
+{
+  "name": "lovereminder",
+  "version": "1.0.0",
+  "description": "Um bot em **Node.js** que envia lembretes automáticos e mensagens carinhosas via **WhatsApp**, para não deixar quem você ama pular refeições ou esquecer o quanto é especial.   Feito com [whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js) + [node-cron](https://www.npmjs.com/package/node-cron).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eu-waliston/LoveReminder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eu-waliston/LoveReminder/issues"
+  },
+  "homepage": "https://github.com/eu-waliston/LoveReminder#readme",
+  "dependencies": {
+    "node-cron": "^4.2.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.32.0"
+  }
+}
